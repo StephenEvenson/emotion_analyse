@@ -2,8 +2,8 @@ FROM python:3.8.6
 
 MAINTAINER StephenEvenson stephen.zrt@qq.com
 
-ADD ./* /code/
-WORKDIR /code
+ADD https://github.com/StephenEvenson/emotion_analyse/archive/master.zip /code/
+WORKDIR /code/emotion_analyse-master 
 RUN pip3 install -r requirement.txt
 EXPOSE 8080
 
