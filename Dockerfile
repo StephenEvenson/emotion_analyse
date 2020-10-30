@@ -1,4 +1,4 @@
-FROM python:3.8.6
+FROM python:3.8-alpine
 
 MAINTAINER StephenEvenson stephen.zrt@qq.com
 
