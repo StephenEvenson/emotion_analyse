@@ -1,0 +1,11 @@
+/test/
+/nlp/test.py
+/learn.py
+/venv/
+*.pyc
+*/*.pyc
+*/*/*.pyc
+screen_bullet/*.csv
+screen_bullet/base/*.csv
+screen_bullet/danmu_emotion/*.csv
+screen_bullet/word_fq/*.csv
